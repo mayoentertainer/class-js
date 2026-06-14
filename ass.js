@@ -14,3 +14,17 @@ function celsius_to_fahrenheit(C){
 }
 celsius_to_fahrenheit(20)
 
+
+function checkEntry(age, isVIP) {
+    if (isVIP === true){
+        return "Acess Granted, Welcome VIP";
+    }
+    else if(age < 21){
+        return "Acess Denied, Too young";
+    }
+    else{
+        return "Acess Granted, Enjoy the night";
+    }
+    
+    
+}
