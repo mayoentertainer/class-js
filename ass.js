@@ -24,7 +24,5 @@ function checkEntry(age, isVIP) {
     }
     else{
         return "Acess Granted, Enjoy the night";
-    }
-    
-    
+    } 
 }

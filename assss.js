@@ -16,6 +16,5 @@ function checkEntry(age, isVIP) {
     else{
         return "Acess Granted, Enjoy the night";
     }
-    
-    
 }
+console.log(checkEntry(21, true))
